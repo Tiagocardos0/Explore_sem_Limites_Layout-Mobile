@@ -34,12 +34,9 @@ img.astro {
     height: 37rem;
 }
 
-div.info {
-    text-align: center;
-}
-
 .letras-banner {
     padding-bottom: 3.5rem;
+    text-align: center;
 }
 
 .letras-banner h1 {
