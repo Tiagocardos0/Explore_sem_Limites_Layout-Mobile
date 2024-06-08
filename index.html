@@ -8,78 +8,82 @@
 </head>
 <body>
     <main>
-        <section class="container">
+        <section class="banner container">
             <div>
-                <img class="astro" src="images/astronaut.svg" alt="imagem de um astronauta">
+                <img class="astro" src="images/astronaut.png" alt="imagem de um astronauta">
             </div>
 
-            <div class="letras-banner">
-                <h1>Explore sem limites</h1>
-                <p>Porque o aprendizado é contínuo</p>
-            </div>
-
-            <div class="seta-baixo">
-                <img src="images/arrow-down.svg" alt="seta para baixo">
-            </div>
-        </section>
-
-        <section class="cards-color">
-            <div class="cards">
-                <div class="cards-text">
-                    <img src="images/yellow-moon.svg" alt="imagem de um planeta">
-                    <h1>Não pare nunca</h1>
-                    <p>
-                        Se você deseja ter sucesso nos estudos,
-                        é fundamental que você adote uma mentalidade
-                        de "não pare nunca". Estudar de forma consistente
-                        e contínua é a chave para o progresso e a conquista
-                        de seus objetivos.
-                    </p>
+            <div class="banner-content">
+                <div class="letras-banner">
+                    <h1>Explore sem limites</h1>
+                    <p>Porque o aprendizado é contínuo</p>
                 </div>
-            </div>
-            <div class="cards">
-                <div class="cards-text">
-                    <img src="images/blue-moon.svg" alt="imagem de um planeta">
-                    <h1>Só volta</h1>
-                    <p>
-                        Se você parou ou perdeu o ritmo em alguma atividade ou
-                        projeto, saiba que nunca é tarde para recomeçar.
-                        Às vezes, as circunstâncias podem mudar, ou podemos nos
-                        sentir desmotivados ou sobrecarregados.
-                    </p>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="cards-text">
-                    <img src="images/pink-moon.svg" alt="imagem de um planeta">
-                    <h1>Siga o seu ritmo</h1>
-                    <p>
-                        Avançar pouco a pouco mantém progresso constante em objetivos,
-                        evitando parar ou desistir. Mesmo pequenos passos nos aproximam
-                        do destino e motivam a continuidade. Não subestime o poder de
-                        cada ação rumo ao objetivo final.
-                    </p>
+                <div class="seta-baixo">
+                    <img src="images/arrow-down.png" alt="seta para baixo">
                 </div>
             </div>
         </section>
 
-        <section class="formulario">
-            <legend>Entre em contato</legend>
-    
-            <form>
-                <div class="input">
-                    <img src="images/person.svg" alt="avatar">
-                    <input type="text" name="tname" id="txname" placeholder="Seu nome">
+        <section class="background-color-cards">
+            <div class="flex-cards container">
+                <div class="cards">
+                    <div class="cards-text">
+                        <img src="images/yellow-moon.svg" alt="imagem de um planeta">
+                        <h1>Não pare nunca</h1>
+                        <p>
+                            Se você deseja ter sucesso nos estudos,
+                            é fundamental que você adote uma mentalidade
+                            de "não pare nunca". Estudar de forma consistente
+                            e contínua é a chave para o progresso e a conquista
+                            de seus objetivos.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="input">
-                    <img src="images/mail.svg" alt="arroba">
-                    <input type="email" name="mail" id="email" placeholder="Email" required>
+                <div class="cards">
+                    <div class="cards-text">
+                        <img src="images/blue-moon.svg" alt="imagem de um planeta">
+                        <h1>Só volta</h1>
+                        <p>
+                            Se você parou ou perdeu o ritmo em alguma atividade ou
+                            projeto, saiba que nunca é tarde para recomeçar.
+                            Às vezes, as circunstâncias podem mudar, ou podemos nos
+                            sentir desmotivados ou sobrecarregados.
+                        </p>
+                    </div>
                 </div>
-                <textarea name="text" id="itxt" placeholder="Digite sua mensagem aqui..."></textarea>
-            </form>
+                <div class="cards">
+                    <div class="cards-text">
+                        <img src="images/pink-moon.svg" alt="imagem de um planeta">
+                        <h1>Siga o seu ritmo</h1>
+                        <p>
+                            Avançar pouco a pouco mantém progresso constante em objetivos,
+                            evitando parar ou desistir. Mesmo pequenos passos nos aproximam
+                            do destino e motivam a continuidade. Não subestime o poder de
+                            cada ação rumo ao objetivo final.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <button>Enviar Mensagem</button>
+        <section class="container form-flex">
+            <div class="formulario">
+                <legend>Entre em contato</legend>
+                <form>
+                    <div class="input">
+                        <img src="images/person.svg" alt="avatar">
+                        <input type="text" name="tname" id="txname" placeholder="Seu nome">
+                    </div>
+                    <div class="input">
+                        <img src="images/mail.svg" alt="arroba">
+                        <input type="email" name="mail" id="email" placeholder="E mail" required>
+                    </div>
+                    <textarea name="text" id="itxt" placeholder="Digite sua mensagem aqui..."></textarea>
+                    <button>Enviar Mensagem</button>
+                </form>
+            </div>
+            <img src="images/stars.svg" alt="estrelhas">
+
         </section>
     </main>
 
